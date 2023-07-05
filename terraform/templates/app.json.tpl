@@ -34,6 +34,10 @@
       {
         "name": "RDS_PORT",
         "value": "5432"
+      },
+      {
+        "name": "ALLOWED_HOSTS",
+        "value": "${allowed_hosts}"
       }
     ],
     "mountPoints": [
