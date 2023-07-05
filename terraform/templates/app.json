@@ -1,0 +1,30 @@
+{
+    "name": "app",
+    "image": "${docker_image_url_app}",
+    "essential": true,
+    "cpu": 10,
+    "memory": 512,
+    "links": [],
+    "portMappings": [
+      {
+        "containerPort": 4000,
+        "hostPort": 0,
+        "protocol": "tcp"
+      }
+    ],
+    "command": ["bash", "-c", "npx prisma migrate deploy && npm start"],
+    "environment": [
+        {
+          "name": "DATABASE_URL",
+          "value": "${database_url}"
+        }
+      ],
+    "logConfiguration": {
+      "logDriver": "awslogs",
+      "options": {
+        "awslogs-group": "/ecs/node-app",
+        "awslogs-region": "${region}",
+        "awslogs-stream-prefix": "node-app-log-stream"
+      }
+    }
+  }

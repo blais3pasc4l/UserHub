@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: prima
+    ports:
+      - '4000:4000'
+    environment:
+      - DATABASE_URL=postgresql://prisma:prisma@postgres:5432/prisma
+    depends_on:
+      - postgres
+  postgres:
+    image: postgres:13
+    restart: always
+    environment:
+      - POSTGRES_USER=prisma
+      - POSTGRES_PASSWORD=prisma
+      - POSTGRES_DB=prisma
+    volumes:
+      - postgres-data
