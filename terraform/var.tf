@@ -57,10 +57,7 @@ variable "ecs_cluster_name" {
 }
 
 
-variable "ecs_cluster_name" {
-  description = "Name of the ECS cluster"
-  default     = "production"
-}
+
 variable "amis" {
   description = "Which AMI to spawn."
   default = {

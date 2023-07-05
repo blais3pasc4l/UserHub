@@ -13,19 +13,7 @@ resource "aws_launch_configuration" "ecs" {
   user_data                   = "#!/bin/bash\necho ECS_CLUSTER='${var.ecs_cluster_name}-cluster' > /etc/ecs/ecs.config"
 }
 
-data "template_file" "app" {
-  template = file("templates/app.json.tpl")
 
-  vars = {
-    docker_image_url = var.docker_image_url
-    region                  = var.region
-  }
-}
-
-resource "aws_ecs_task_definition" "app" {
-  family                = "app"
-  container_definitions = data.template_file.app.rendered
-}
 
 resource "aws_ecs_service" "production" {
   name            = "${var.ecs_cluster_name}-service"
