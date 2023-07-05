@@ -37,7 +37,7 @@ $ export AWS_ACCESS_KEY_ID="YOUR_AWS_ACCESS_KEY_ID"
 $ export AWS_SECRET_ACCESS_KEY="YOUR_AWS_SECRET_ACCESS_KEY"
 ```
 
-En el archivo de variables nuevamente, asegúrese de reemplazar <AWS_ACCOUNT_ID> con su ID de cuenta de AWS. (linea 75)
+En el archivo de variables nuevamente, asegúrese de reemplazar <AWS_ACCOUNT_ID> con su ID de cuenta de AWS. (linea 75 de el archivo de variables)
 
 ```
 variable "docker_image_url_app" {
