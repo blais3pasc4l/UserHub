@@ -116,3 +116,7 @@ variable "allowed_hosts" {
   description = "Domain name for allowed hosts"
   default     = "YOUR DOMAIN NAME"
 }
+variable "docker_image_url_nginx" {
+  description = "Docker image to run in the ECS cluster"
+  default     = "<AWS_ACCOUNT_ID>.dkr.ecr.us-west-1.amazonaws.com/nginx:latest"
+}
