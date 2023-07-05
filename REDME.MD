@@ -25,7 +25,7 @@ $ aws ecr get-login --region us-west-1 --no-include-email
 Push image:
 
 ```bash
-$ docker push <AWS_ACCOUNT_ID>.dkr.ecr.us-west-1.amazonaws.com/django-app:latest
+$ docker push <AWS_ACCOUNT_ID>.dkr.ecr.us-west-1.amazonaws.com/app:latest
 ```
 
 ## Terraform infraestructura
