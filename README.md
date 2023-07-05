@@ -54,6 +54,8 @@ $ docker push <AWS_ACCOUNT_ID>.dkr.ecr.us-west-1.amazonaws.com/nginx:latest
 ```
 
 ```bash
+$ terraform init
+
 $ terraform plan
 
 $ terraform apply
