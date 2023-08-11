@@ -1,5 +1,12 @@
 # DevOps_Evaluation_A01
 
+The objective of this project is to develop and deploy a user management microservice. The microservice will be capable of performing the following actions:
+
+1. Create a new user with a name and email address.
+2. Retrieve information of an existing user based on their identifier.
+3. Update information of an existing user. 
+4. Delete an existing user. 
+
 ![Service Example Architecture](https://github.com/blais3pasc4l/DevOps_Evaluation_A01/blob/master/Marco%20horizontal%20AWS%20(2019).png?raw=true)
 
 # Docker compose
