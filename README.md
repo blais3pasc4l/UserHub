@@ -1,5 +1,7 @@
 # DevOps_Evaluation_A01
 
+![Service Example Architecture](https://user-images.githubusercontent.com/18706156/77381360-72489680-6d5c-11ea-9da8-f4f03b6c5f4c.jpg)
+
 # Docker compose
 
 En el directorio app correr:
