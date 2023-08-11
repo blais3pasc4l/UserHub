@@ -1,6 +1,6 @@
 # DevOps_Evaluation_A01
 
-The objective of this project is to develop and deploy a user management microservice. The microservice will be capable of performing the following actions:
+The main objective of this project is to create the AWS infrastructure using Terraform in order to deploy a user management microservice. This microservice will be capable of carrying out the following actions:
 
 1. Create a new user with a name and email address.
 2. Retrieve information of an existing user based on their identifier.
