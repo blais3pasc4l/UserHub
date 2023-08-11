@@ -1,4 +1,4 @@
-# UserHub [AWS | RDS | Terraform]
+# UserHub AWS | RDS | Terraform
 
 El objetivo principal de este proyecto es crear una infraestructura de AWS utilizando Terraform para desplegar un microservicio de gestión de usuarios. 
 Este microservicio será capaz de llevar a cabo las siguientes acciones:
