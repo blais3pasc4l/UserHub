@@ -1,11 +1,11 @@
 # DevOps_Evaluation_A01
 
-The main objective of this project is to create the AWS infrastructure using Terraform in order to deploy a user management microservice. This microservice will be capable of carrying out the following actions:
+El objetivo principal de este proyecto es crear una infraestructura de AWS utilizando Terraform para desplegar un microservicio de gestión de usuarios. Este microservicio será capaz de llevar a cabo las siguientes acciones:
 
-1. Create a new user with a name and email address.
-2. Retrieve information of an existing user based on their identifier.
-3. Update information of an existing user. 
-4. Delete an existing user. 
+1. Crear un nuevo usuario con nombre y dirección de correo electrónico.
+2. Obtener información de un usuario existente basada en su identificador.
+3. Actualizar información de un usuario existente.
+4. Eliminar un usuario existente.
 
 ![Service Example Architecture](https://github.com/blais3pasc4l/DevOps_Evaluation_A01/blob/master/Marco%20horizontal%20AWS%20(2019).png?raw=true)
 
