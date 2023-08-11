@@ -1,6 +1,6 @@
 # DevOps_Evaluation_A01
 
-![Service Example Architecture](https://user-images.githubusercontent.com/18706156/77381360-72489680-6d5c-11ea-9da8-f4f03b6c5f4c.jpg)
+![Service Example Architecture](https://github.com/blais3pasc4l/DevOps_Evaluation_A01/blob/master/Marco%20horizontal%20AWS%20(2019).png?raw=true)
 
 # Docker compose
 
